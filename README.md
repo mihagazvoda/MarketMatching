@@ -213,7 +213,7 @@ mm <- best_matches(data=weather,
 mm_only_cph <- best_matches(data=weather,
                    id_variable="Area",
                    date_variable="Date",
-                   markets_to_be_matched=c"CPH", "SFO"),
+                   markets_to_be_matched=c("CPH", "SFO"),
                    matching_variable="Mean_TemperatureF",
                    parallel=FALSE,
                    warping_limit=1, # warping limit=1
