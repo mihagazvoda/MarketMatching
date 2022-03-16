@@ -84,7 +84,7 @@ Also, the `test_fake_lift()` function provides pseudo prospective power
 analysis if you’re using the `MarketMatching` package to create your
 test design (i.e., not just doing the post inference).
 
-1.  Inference step: fit a Bayesian structural time series model that
+2.  Inference step: fit a Bayesian structural time series model that
     utilizes the control markets identified in step 1 as predictors.
     Based on this model, create a synthetic control series by producing
     a counterfactual prediction for the post period assuming that the
